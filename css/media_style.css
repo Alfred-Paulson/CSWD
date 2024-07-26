@@ -1,0 +1,48 @@
+.video-container,.image-container{
+    width: 100%;
+}
+iframe{
+    width: 100%;
+    height: 100vh;
+}
+.video-list,.image-list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+}
+.image-list{
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+
+}
+.image{
+    min-width:250px;
+
+
+}
+.video{
+    width: 100%;
+}
+.main-image img{
+    max-height: 100vh;
+    object-fit: cover;
+    width: 100%;
+}
+.thumbnail img,.image img{
+    width: 100%;
+    height: auto;
+}
+.divider{
+    width: 100%;
+    height: 2px;
+    background-color: #f3f3f3;
+    margin: 50px 0px;
+}
+.image img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    object-fit: cover;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page">
+        <header>    <!-- Header section with nav element as outlined in the assignment requirements. -->
+            <div id="logo">
+                <a href="../home.html"><img src="../images/logo.jpeg" alt="Retriever club logo"></a> <!-- logo image container, with image leading to homepage.-->
+            </div>
+            <nav id = "menu">        
+              <div id="menu-item"><a href="../home.html">Home</a></div>
+              <div class = "menu-dropdown"><a href="#">About the club</a> <!-- Dropdown menu with links to other pages of the website. -->
+                <div class = "dropdown-content">
+                  <div class = "dropdown"><a href="./theclub.html">The club</a></div>
+                  <div class = "dropdown"><a href="./aboutsport.html">Retriever sport</a></div>
+                  <div class = "dropdown"><a href="./media.html">Media</a></div>                  <!-- dropdown menu items -->
+                  <div class = "dropdown"><a href="./newmembers.html">For new members</a></div>
+                  <div class = "dropdown"><a href="./contacts.html">Contacts</a></div>
+                  <div class = "dropdown"><a href="./guestbook.html">Guestbook</a></div>               
+                </div>
+              </div>         
+              <div class = "menu-dropdown"><a href="#">About the devs</a> <!-- Another dropdown menu -->
+                <div class = "dropdown-content">
+                  <div class = "dropdown"><a href="./aboutwebsite.html">About the website</a></div>
+                  <div class = "dropdown"><a href="./aboutdevs.html">About us</a></div>      
+                </div>
+              </div>         
+            </nav>
+        </header>
+            <main>
+              <h2>Contact Us</h2>
+              <h3>You can reach out to us via the following form:</h3>
+              <div id="feedback" class="feedback"> <!-- A container with the contact form-->
+              <form id="contactForm">
+
+                <label for="name">Name:</label>
+                <input type="text"  id="name" placeholder="Your Name" required >
+
+                <br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="example@gmail.com" required>
+
+                <br>
+
+                <label for="phone">Phone No :</label> 
+                <input type="tel" name="phone" id="phone" placeholder="+353 123456789" required>
+
+                <br>
+
+                <br> <br>
+
+                <button type="submit">Send</button>
+
+               
+              </form>
+              </div>
+              <div id="clubcontacts"> <!-- A container with the club's contacts - an embedded google map link with the club's location and a phone number link -->
+              <h3>We are located by the following address:</h3>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d499.53058231402946!2d30.27406526970879!3d59.94670467006486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTnCsDU2JzQ4LjEiTiAzMMKwMTYnMjkuMCJF!5e0!3m2!1sen!2sie!4v1721918244742!5m2!1sen!2sie" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <h3>You can call us via this number:</h3>
+              <a href="tel:+123456789">+123456789</a>
+              </div>
+            </main>            
+            <footer class = "footer"> <!-- A footer with a Griffith College logo, team members' contacts and links to their emails and social media. -->
+              <div class = "footeritem1">
+                <p>Ilia Klodin - 3146179</p>
+              </div>
+              <div class="footeritem2">
+                <a href="https://www.instagram.com/iliaklodin/"><img src="../images/Instagram_icon.png" alt="instagram icon"></a>
+              </div>
+              <div class= "footeritem3">
+                <p>ilia.klodin@gmail.com</p>
+              </div>
+              <div class="footeritem4">
+                <a href="mailto:ilia.klodin@gmail.com?Subject=Hello!"><img src="../images/Gmail_icon.png" alt="Gmail icon"></a>
+              </div>
+              <div class = "footeritem1">
+                <p>Alfred Paulson Ukken - 3128256</p>
+              </div>
+              <div class="footeritem2">
+                <a href="https://www.instagram.com/alfred_paulson_ukken/"><img src="../images/Instagram_icon.png" alt="instagram icon"></a>
+              </div>
+              <div class= "footeritem3">
+                <p>alfredpaulsonukken@gmail.com</p>
+              </div>
+              <div class="footeritem4">
+                <a href="mailto:alfredpaulsonukken@gmail.com?Subject=Hello!"><img src="../images/Gmail_icon.png" alt="Gmail icon"></a>
+              </div>
+              <div class = "footeritem1">
+                <p>Saif Sayeed Khan - 3149056</p>
+              </div>
+              <div class="footeritem2">
+                <a href="https://www.instagram.com/k.8xii/"><img src="../images/Instagram_icon.png" alt="instagram icon"></a>
+              </div>
+              <div class= "footeritem3">
+                <p>saifsayeedkhan@gmail.com</p>
+              </div>
+              <div class="footeritem4">
+                <a href="mailto:saifsayeedkhan@gmail.com?Subject=Hello!"><img src="../images/Gmail_icon.png" alt="Gmail icon"></a>
+              </div>
+              <div class= "footeritem5">
+                <a href="https://www.griffith.ie/"><img src="../images/griffithCollegeLogo.jpg" alt="A Griffith College logo."></a>
+              </div>
+          </footer>
+    </div>    
+    <script src="../js/contactUs.js"></script>
+</body>
+</html> 
